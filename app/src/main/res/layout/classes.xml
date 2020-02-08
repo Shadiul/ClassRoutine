@@ -12,7 +12,6 @@
         android:clickable="true"
         android:focusable="true"
         android:foreground="?attr/selectableItemBackground"
-        android:onClick="about"
         app:cardCornerRadius="8dp">
 
         <LinearLayout

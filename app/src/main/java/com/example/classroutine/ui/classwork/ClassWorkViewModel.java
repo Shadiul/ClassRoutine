@@ -1,16 +1,16 @@
-package com.example.classroutine.ui.slideshow;
+package com.example.classroutine.ui.classwork;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class ClassWorkViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public ClassWorkViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is Class Work fragment");
     }
 
     public LiveData<String> getText() {

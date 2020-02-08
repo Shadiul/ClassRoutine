@@ -43,32 +43,39 @@ public class WeekViewFragment extends Fragment {
 
         days.add(new Model(
                 null, null, null,
+                null, null, null,
                 null, null, null
         ));
         days.add(new Model(
-                "Compiler Design", "1:00 PM - 2:30 PM", "AB4 515",
-                "Wireless Programming", "4:00 PM - 5:30 PM", "AB1 303"
-        ));
-        days.add(new Model(
-                "Compiler Design Lab", "11:30 AM - 2:30 PM", "AB4 515",
+                "Web Engineering Lab", "10:00 AM - 1:00 PM", "AB4 513",
+                "Artificial Intelligence", "4:00 PM - 5:30 PM", "AB4 305",
                 null, null, null
         ));
         days.add(new Model(
-                "Software Engineering", "1:00 PM - 2:30 PM", "AB4 514",
-                "Financial & Managerial Accountig", "2:30 PM - 4:00 PM", "AB4 203"
+                "Simulation and Modeling", "1:00 PM - 2:30 PM", "AB4 201",
+                "Web Engineering", "2:30 PM - 4:00 PM", "AB4 305",
+                null, null, null
         ));
         days.add(new Model(
-                "Software Engineering", "10:00 AM - 11:30 AM", "AB4 514",
-                "Compiler Design", "2:30 PM - 4:00 PM", "AB1 306"
+                "Artificial Intelligence", "10:00 AM - 11:30 AM", "AB4 304",
+                "Web Engineering", "11:30 AM - 1:00 PM", "AB4 305",
+                "Simulation and Modeling", "1:00 PM - 4:00 PM", "AB4 305"
         ));
         days.add(new Model(
-                "Wireless Programming", "10:00 AM - 11:30 AM", "AB1 303",
+                null, null, null,
+                null, null, null,
+                null, null, null
+        ));
+        days.add(new Model(
+                "Artificial Intelligence Lab", "11:30 AM - 2:30 PM", "AB4 519",
+                "Simulation and Modeling Lab", "2:30 PM - 5:30 PM", "AB4 518",
                 null, null, null
         ));
         days.add(new Model(
                 null, null, null,
+                null, null, null,
                 null, null, null
-        ));
+                ));
 
         adapter_days = new Adapter(days, getActivity());
         viewPager = root.findViewById(R.id.viewPager);

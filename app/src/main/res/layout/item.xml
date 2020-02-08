@@ -81,6 +81,31 @@
                 android:textColor="#FFF"
                 android:textSize="14dp" />
 
+            <TextView
+                android:id="@+id/class_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wireless Programming"
+                android:textColor="#FFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/time_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM - 11:30 AM"
+                android:textColor="#FFF"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/room_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="AB1 303"
+                android:textColor="#FFF"
+                android:textSize="14dp" />
+
         </LinearLayout>
 
 

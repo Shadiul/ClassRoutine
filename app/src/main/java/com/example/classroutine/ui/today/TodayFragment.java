@@ -7,17 +7,13 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.classroutine.Classes;
 import com.example.classroutine.ClassesAdapter;
 import com.example.classroutine.R;
-import com.example.classroutine.ui.slideshow.SlideshowViewModel;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -51,12 +47,12 @@ public class TodayFragment extends Fragment {
 
                 day_name.setText("Sunday");
                 classesList.add(new Classes(
-                        "1:00 PM - 2:30 PM", "Compiler Design", "PC-D",
-                        "Mushfiqur Rahaman", "AB4 515"
+                        "10:00 AM - 1:00 PM", "Web Engineering Lab", "PC-C",
+                        "Zakia Sultana", "AB4 513"
                 ));
                 classesList.add(new Classes(
-                        "4:00 PM - 5:30 PM", "Wireless Programming", "PC-D",
-                        "Abdullah Mamud Ibn Ubaidullah", "AB1 303"
+                        "4:00 PM - 5:30 PM", "Artificial Intelligence", "PC-C",
+                        "Hasin Rehana", "AB4 305"
                 ));
 
                 break;
@@ -65,8 +61,12 @@ public class TodayFragment extends Fragment {
 
                 day_name.setText("Monday");
                 classesList.add(new Classes(
-                        "11:30 AM - 2:30 PM", "Compiler Desig Lab", "PC-D",
-                        "Mushfiqur Rahaman", "AB1 302"
+                        "1:00 PM - 2:30 PM", "Simulation and Modeling", "PC-C",
+                        "Zarin Tasnim Shejuti", "AB4 201"
+                ));
+                classesList.add(new Classes(
+                        "2:30 PM - 4:00 PM", "Web Engineering", "PC-C",
+                        "Zakia Sultana", "AB4 305"
                 ));
 
                 break;
@@ -75,12 +75,16 @@ public class TodayFragment extends Fragment {
 
                 day_name.setText("Tuesday");
                 classesList.add(new Classes(
-                        "1:00 PM - 2:30 PM", "Software Engineering", "PC-D",
-                        "Fatema Tuj Johora", "AB4 514"
+                        "10:00 AM - 11:30 AM", "Artificial Intelligence", "PC-C",
+                        "Hasin Rehana", "AB4 304"
                 ));
                 classesList.add(new Classes(
-                        "2:30 PM - 4:00 PM", "Financial & Managerial Accounting", "PC-D",
-                        "Md. Muktadir Hossain", "AB4 203"
+                        "11:30 AM - 1:00 PM", "Web Engineering", "PC-C",
+                        "Zakia Sultana", "AB4 305"
+                ));
+                classesList.add(new Classes(
+                        "1:00 PM - 4:00 PM", "Simulation and Modeling", "PC-C",
+                        "Zarin Tasnim Shejuti", "AB4 305"
                 ));
 
                 break;
@@ -88,23 +92,18 @@ public class TodayFragment extends Fragment {
             case Calendar.WEDNESDAY:
 
                 day_name.setText("Wednessday");
-                classesList.add(new Classes(
-                        "10:00 AM - 11:30 AM", "Software Engineering", "PC-D",
-                        "Fatema Tuj Johora", "AB4 514"
-                ));
-                classesList.add(new Classes(
-                        "2:30 PM - 4:00 PM", "Compiler Design", "PC-D",
-                        "Mushfiqur Rahaman", "AB1 306"
-                ));
-
                 break;
 
             case Calendar.THURSDAY:
 
                 day_name.setText("Thursday");
                 classesList.add(new Classes(
-                        "10:00 AM - 11:30 AM", "Wireless Programming", "PC-D",
-                        "Abdullah Mamud Ibn Ubaidullah", "AB1 303"
+                        "11:30 AM - 2:30 PM", "Artificial Intelligence Lab", "PC-C",
+                        "Hasin Rehana", "AB4 519"
+                ));
+                classesList.add(new Classes(
+                        "2:30 PM - 5:30 PM", "Simulation and Modeling Lab", "PC-C",
+                        "FH", "AB4 518"
                 ));
 
                 break;

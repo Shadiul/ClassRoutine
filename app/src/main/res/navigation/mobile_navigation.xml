@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/classwork"
-        android:name="com.example.classroutine.ui.slideshow.SlideshowFragment"
+        android:name="com.example.classroutine.ui.classwork.ClassWorkFragment"
         android:label="@string/menu_class_works"
         tools:layout="@layout/fragment_slideshow" />
 

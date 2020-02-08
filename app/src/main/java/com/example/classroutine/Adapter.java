@@ -42,7 +42,7 @@ public class Adapter extends PagerAdapter {
         layoutInflater = LayoutInflater.from(context);
         View day_view = layoutInflater.inflate(R.layout.item, container, false);
 
-        TextView class_1, time_1, room_1, class_2, time_2, room_2;
+        TextView class_1, time_1, room_1, class_2, time_2, room_2, class_3, time_3, room_3;
 
         class_1 = day_view.findViewById(R.id.class_1);
         time_1 = day_view.findViewById(R.id.time_1);
@@ -50,6 +50,9 @@ public class Adapter extends PagerAdapter {
         class_2 = day_view.findViewById(R.id.class_2);
         time_2 = day_view.findViewById(R.id.time_2);
         room_2 = day_view.findViewById(R.id.room_2);
+        class_3 = day_view.findViewById(R.id.class_3);
+        time_3 = day_view.findViewById(R.id.time_3);
+        room_3 = day_view.findViewById(R.id.room_3);
 
         class_1.setText(models.get(position).getClass_1());
         time_1.setText(models.get(position).getTime_1());
@@ -57,6 +60,9 @@ public class Adapter extends PagerAdapter {
         class_2.setText(models.get(position).getClass_2());
         time_2.setText(models.get(position).getTime_2());
         room_2.setText(models.get(position).getRoom_2());
+        class_3.setText(models.get(position).getClass_3());
+        time_3.setText(models.get(position).getTime_3());
+        room_3.setText(models.get(position).getRoom_3());
 
         container.addView(day_view, 0);
 
